@@ -27,7 +27,6 @@ class SmsService {
             if (empty($message)) {
                 throw new Exception("Message cannot be empty");
             }
-
             // Ensure phone number has country code
             if (!str_starts_with($recipientPhone, '+')) {
                 $recipientPhone = '+250' . ltrim($recipientPhone, '0');
@@ -62,8 +61,7 @@ class SmsService {
                 'Accept: application/json',
                 'Content-Type: application/x-www-form-urlencoded',
                 'apikey: ' . $this->apiKey
-            ]);
-            
+            ]);    
             // Disable SSL verification for testing
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
             curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
