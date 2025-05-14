@@ -67,7 +67,6 @@ This is a USSD application for the F&I Trading Platform that allows users to reg
    - Seller Services
    - Back option
 
-
 ## Troubleshooting
 
 1. **SMS Not Working**
@@ -117,10 +116,6 @@ For issues and support:
 2. Review PHP error logs
 3. Contact Africa's Talking support for API issues
 4. Create an issue in the repository
-
-## License
-
-[Your License Information]
 
 ## Contributing
 
