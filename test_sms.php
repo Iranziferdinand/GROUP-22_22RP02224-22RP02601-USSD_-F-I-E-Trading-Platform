@@ -1,7 +1,6 @@
 <?php
 require_once 'sms.php';
 require_once 'config.php';
-
 // Enable error reporting
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
