@@ -6,7 +6,7 @@ class Util {
   
     static $host = 'localhost';
     static $db = 'farmer_market'; 
-    static $user = 'root';          
+    static $user = 'root';         
     static $pass = '';   
     
     static $username="sandbox";
